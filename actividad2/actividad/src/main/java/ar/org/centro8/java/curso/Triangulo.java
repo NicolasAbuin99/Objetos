@@ -35,6 +35,7 @@ public class Triangulo extends Formas {
     {
         perimetro = base + altura + Math.hypot(base, altura);
         superficie = (base*altura)/2;
+        System.out.println("Perimetro "+perimetro+" Y Superficie "+superficie);
     }
    
     @Override

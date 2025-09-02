@@ -19,6 +19,7 @@ public class Circulo extends Formas {
     public void calcular(){
         perimetro =  2 * Math.PI * radio;
         superficie = Math.PI * radio  *radio; 
+        System.out.println("Perimetro "+perimetro+" Y SUperficie "+superficie);
     }
     
     @Override

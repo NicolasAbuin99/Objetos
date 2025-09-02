@@ -30,6 +30,7 @@ public class Rectangulo extends Formas {
     {
         perimetro = 2*(ladoA+ladoB);
         superficie = ladoA * ladoB;
+        System.out.println("Perimetro "+perimetro+" Y SUperficie "+superficie);
     }
 
     @Override
