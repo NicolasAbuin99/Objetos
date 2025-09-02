@@ -1,6 +1,6 @@
 package ar.org.centro8.java.curso;
 
-public abstract class Triangulo extends Formas {
+public class Triangulo extends Formas {
     private double base;
     private double altura;
 

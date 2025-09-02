@@ -1,6 +1,6 @@
 package ar.org.centro8.java.curso;
 
-public abstract  class Rectangulo extends Formas {
+public class Rectangulo extends Formas {
     private double ladoA;
     private double ladoB;
 
