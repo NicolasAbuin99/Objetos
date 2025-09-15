@@ -131,5 +131,16 @@ public class TestString {
         String apellido = nombreCompleto.substring(espacio+1);
         System.out.println(nombre.toUpperCase().charAt(0)+nombre.substring(1));
         System.out.println(apellido.toUpperCase().charAt(0)+apellido.substring(1));
+
+        String cadena ="";
+        for(int i=0;i<100000;i++){
+            cadena+="x";
+        }
+        System.err.println(cadena);
     }
+    
+    StringBuilder sb = new StringBuilder();
+    StringBuffer sf = new StringBuffer();
+
+    System.out.println(sf);
 }
